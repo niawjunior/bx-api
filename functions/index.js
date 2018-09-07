@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const cors = require('cors');
 var app = express();
 app.use(cors({
-    origin: ["https://github.com/niawjunior/bxWs.io","http://127.0.0.1:8080"]
+    origin: ["https://niawjunior.github.io/bxWs.io","http://127.0.0.1:8080"]
 }));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({

@@ -1,42 +1,17 @@
-[debug] [2018-09-07T15:02:52.467Z] ----------------------------------------------------------------------
-[debug] [2018-09-07T15:02:52.470Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
-[debug] [2018-09-07T15:02:52.470Z] CLI Version:   4.2.0
-[debug] [2018-09-07T15:02:52.470Z] Platform:      darwin
-[debug] [2018-09-07T15:02:52.470Z] Node Version:  v8.11.3
-[debug] [2018-09-07T15:02:52.471Z] Time:          Fri Sep 07 2018 22:02:52 GMT+0700 (+07)
-[debug] [2018-09-07T15:02:52.471Z] ----------------------------------------------------------------------
+[debug] [2018-09-07T15:21:43.757Z] ----------------------------------------------------------------------
+[debug] [2018-09-07T15:21:43.760Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-09-07T15:21:43.760Z] CLI Version:   4.2.0
+[debug] [2018-09-07T15:21:43.760Z] Platform:      darwin
+[debug] [2018-09-07T15:21:43.760Z] Node Version:  v8.11.3
+[debug] [2018-09-07T15:21:43.761Z] Time:          Fri Sep 07 2018 22:21:43 GMT+0700 (+07)
+[debug] [2018-09-07T15:21:43.762Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-09-07T15:02:52.482Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-09-07T15:02:52.483Z] > authorizing via signed-in user
-[debug] [2018-09-07T15:02:52.484Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/crowdsale-website-9cfce  
+[debug] [2018-09-07T15:21:43.774Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-07T15:21:43.774Z] > authorizing via signed-in user
+[debug] [2018-09-07T15:21:43.775Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-09-07T15:21:43.776Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-09-07T15:21:44.294Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-07T15:21:44.303Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/crowdsale-website-9cfce  
  
-[debug] [2018-09-07T15:02:54.024Z] <<< HTTP RESPONSE 200
-[info] 
-[info] === Deploying to 'crowdsale-website-9cfce'...
-[info] 
-[info] i  deploying functions
-[debug] [2018-09-07T15:02:56.551Z] > [functions] package.json contents: {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
-  "scripts": {
-    "serve": "firebase serve --only functions",
-    "shell": "firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
-  },
-  "dependencies": {
-    "axios": "^0.18.0",
-    "body-parser": "^1.18.3",
-    "cors": "^2.8.4",
-    "express": "^4.16.3",
-    "firebase-admin": "~6.0.0",
-    "firebase-functions": "^2.0.3"
-  },
-  "private": true
-}
-[info] i  functions: ensuring necessary APIs are enabled...
-[debug] [2018-09-07T15:02:56.552Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/crowdsale-website-9cfce?view=CONSUMER_VIEW  
- 
-[debug] [2018-09-07T15:02:56.552Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/crowdsale-website-9cfce?view=CONSUMER_VIEW  
- 
+[debug] [2018-09-07T15:21:45.838Z] <<< HTTP RESPONSE 200
